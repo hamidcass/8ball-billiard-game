@@ -1,0 +1,104 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #272838;
+    font-family: monospace;
+    min-height: 100%;
+    overflow: hidden;
+
+    
+    
+    
+}
+
+#title_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title{
+    font-family: monospace;
+    font-weight:bolder;
+    color: aliceblue;
+}
+
+#menu {
+    background-color: black;
+    height: 450px;
+    width: 600px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    margin-left: 60px;
+    border-radius: 29px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu input {
+    background-color: #5b5c70;
+    color: white;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*visibility: hidden;*/
+
+}
+
+.svg_container {
+    border-style:hidden;
+    border-color: black;
+    height: 637px;
+    width: 250px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+.svg_container > * {
+    height: auto;
+    width: 100%;
+}
+
+canvas {
+    pointer-events: none;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%; 
+    z-index: 999; 
+    border: 2px solid black;
+}
+
+h1 {
+    color: #13ef13;
+}
+
+#curr {
+    font-size: 30px;
+}
+
+#curr_div {
+    display: flex;
+    justify-content: center;
+}
+
+#message_div {
+    display: flex;
+    justify-content: center;
+}
+
+#message {
+    font-size: 20px;
+}
+
+
+
